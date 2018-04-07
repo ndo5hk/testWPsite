@@ -1,0 +1,4 @@
+[27-Aug-2017 13:33:31 America/Denver] PHP Notice:  Undefined variable: instance in /home1/newdomi4/public_html/wp-content/plugins/page-layout-builder/modules/notice/jquery_notice.php on line 3
+[27-Aug-2017 19:27:30 America/Denver] PHP Fatal error:  Class 'WP_Widget' not found in /home1/newdomi4/public_html/wp-content/plugins/page-layout-builder/modules/notice/notice.php on line 13
+[27-Aug-2017 19:53:14 America/Denver] PHP Notice:  Undefined variable: instance in /home1/newdomi4/public_html/wp-content/plugins/page-layout-builder/modules/notice/bootstrap_notice.php on line 2
+[28-Aug-2017 23:02:49 America/Denver] PHP Fatal error:  Class 'WP_Widget' not found in /home1/newdomi4/public_html/wp-content/plugins/page-layout-builder/modules/notice/notice.php on line 13

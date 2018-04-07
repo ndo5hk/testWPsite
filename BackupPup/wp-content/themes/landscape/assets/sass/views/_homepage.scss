@@ -1,0 +1,83 @@
+/*--------------------------------------------------------------
+# Homepage Template
+--------------------------------------------------------------*/
+.intro {
+	margin: 0 0 rem(40);
+	overflow: hidden;
+	padding: 0 0 rem(20);
+}
+
+.intro .entry-content p {
+	margin: 0;
+	padding: 0 0 rem(20);
+	text-align: left;
+
+	@include media(768px) {
+		text-align: center;
+	}
+}
+
+.home .entry-content h1 {
+	color: $color-black;
+	font-weight: normal;
+	font-size: rem(26);
+	margin-bottom: rem(20);
+	text-align: left;
+
+	@include media(768px) {
+		font-size: rem(32);
+		text-align: center;
+	}
+}
+
+.featured-page-area {
+	margin: 0 auto;
+
+	.entry-content {
+		margin: 0;
+	}
+}
+
+.featured-page {
+	width: 100%;
+	padding-bottom: rem(20);
+
+	@include media(768px) {
+		@include span-columns(4);
+	}
+}
+
+.featured-title {
+	font-family: $font-serif;
+	font-size: rem(18);
+	font-weight: bold;
+	margin: 0;
+	padding: rem(14) 0;
+	text-align: left;
+	text-decoration: none;
+
+	a {
+		color: $color-black;
+
+		&:hover {
+			opacity: .7;
+		}
+	}
+}
+
+.featured-page img {
+	display: block;
+	margin: 0;
+	height: auto;
+	transition: all .4s ease-in-out;
+	width: 100%;
+    -webkit-transform: translateZ(0);
+    -webkit-transition: opacity 1s ease-in-out;
+}
+
+.front-featured img:hover {
+	opacity: .8;
+	transition: all .4s ease-in-out;
+    -webkit-transform: translateZ(0);
+    -webkit-transition: opacity 1s ease-in-out;
+}

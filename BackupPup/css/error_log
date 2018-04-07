@@ -1,0 +1,4 @@
+[07-Sep-2017 10:59:57 America/Denver] PHP Warning:  Missing argument 1 for ADODB_Pager::__construct(), called in /home1/newdomi4/public_html/css/db_connector.php on line 308 and defined in /home1/newdomi4/public_html/css/db_connector.php on line 62
+[07-Sep-2017 10:59:57 America/Denver] PHP Warning:  Missing argument 2 for ADODB_Pager::__construct(), called in /home1/newdomi4/public_html/css/db_connector.php on line 308 and defined in /home1/newdomi4/public_html/css/db_connector.php on line 62
+[07-Sep-2017 10:59:57 America/Denver] PHP Notice:  Undefined variable: sql in /home1/newdomi4/public_html/css/db_connector.php on line 69
+[07-Sep-2017 10:59:57 America/Denver] PHP Notice:  Undefined variable: db in /home1/newdomi4/public_html/css/db_connector.php on line 71

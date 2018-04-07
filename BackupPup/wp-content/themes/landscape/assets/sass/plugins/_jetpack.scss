@@ -1,0 +1,55 @@
+/*--------------------------------------------------------------
+Infinite scroll
+--------------------------------------------------------------*/
+
+// Globally hidden elements when Infinite Scroll is supported and in use.
+.infinite-scroll .posts-navigation, // Older / Newer Posts Navigation (always hidden)
+.infinite-scroll.neverending .site-footer { // Theme Footer (when set to scrolling)
+	display: none;
+}
+
+// When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+#infinite-handle {
+	margin: rem(40) 0;
+	padding: rem(20) 0 0;
+	text-align: center;
+
+	button {
+		text-transform: uppercase;
+		vertical-align: middle;
+
+		&:hover {
+			opacity: .7;
+		}
+	}
+
+	span {
+		padding: rem(15) rem(60);
+	}
+}
+
+.infinite-loader {
+	margin-bottom: 40px;
+
+	.spinner {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
+
+#infinite-handle span button, 
+#infinite-handle span button:hover, 
+#infinite-handle span button:focus {
+	font-family: $font-serif;
+	display: inline;
+	position: static;
+	padding: 0;
+	border: none;
+}

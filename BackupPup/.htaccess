@@ -1,0 +1,15 @@
+# Use PHP5 Single php.ini as default
+# Changed PHP handler from application/x-httpd-php5s to application/x-httpd-phpbetas on Tue Jan 12 15:30:50 MST 2016.
+AddHandler application/x-httpd-phpbetas .php
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

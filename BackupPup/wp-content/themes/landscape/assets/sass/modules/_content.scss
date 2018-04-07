@@ -1,0 +1,166 @@
+/*--------------------------------------------------------------
+# Site Content
+--------------------------------------------------------------*/
+
+.sticky,
+.bypostauthor {
+	display: inherit;
+}
+
+.entry-title, 
+.entry-title a {
+	color: $color-black;
+	font-size: rem(26);
+	font-weight: normal;
+	text-align: left;
+	text-decoration: none;
+	text-transform: capitalize;
+
+	@include media(768px) {
+		font-size: rem(38);
+		text-align: center;
+	}
+}
+
+.entry-title a:hover {
+	color: $color-dark-gray;
+	text-decoration: none;
+}
+
+.archive-title {
+	color: $color-link-hover;
+	font-size: rem(22);
+	margin-bottom: rem(15);
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.page-title {
+	color: $color-black;
+	margin-bottom: rem(40);
+	text-align: center;
+}
+
+.hentry {
+	border-bottom: 1px solid $color-lighter-gray;
+	margin: 0 0 rem(60) 0;
+	padding: 0 0 rem(60);
+
+	&:last-child {
+		border-bottom: 0;
+	}
+}
+
+.page .hentry,
+.single .hentry {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.entry-meta {
+	clear: both;
+	font-family: $font-serif;
+	margin: rem(20) 0 rem(20);
+	text-align: left;
+
+	a:hover {
+		text-decoration: none;
+	}
+
+	@include media(768px) {
+		text-align: center;
+	}
+}
+
+.entry-footer{
+	font-size: rem(15);
+	font-style: normal;
+	font-family: $font-serif;
+
+	span {
+		display: block;
+	}
+
+	a {
+		font-style: italic;
+	}
+}
+
+
+.page-links {
+	clear: both;
+	margin: 0 rem(20) rem(20) 0;
+
+	a {
+		background: $color-link;
+		border-radius: rem(3);
+		color: $color-white;
+		padding: rem(1) rem(4);
+
+		&:hover {
+			background: none;
+			color: $color-black;
+		}
+	}
+}
+
+.sep{
+	color: $color-lighter-gray;
+	font-style: italic;
+}
+
+.byline,
+.updated:not(.published) {
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.entry-content,
+.entry-summary {
+	margin: rem(20) 0;
+}
+
+.home .entry-content {
+	margin: 0;
+}
+
+.single-thumbnail{
+	margin: rem(20) 0;
+}
+
+.single-thumbnail img:hover{
+	opacity: 0.9;
+}
+
+.more-link {
+	display: block;
+	margin-top: rem(20);
+	width: auto;
+}
+
+.more-link:after {
+	content: "\f345";
+	font-family: dashicons;
+	font-size: rem(13);
+	margin-left: rem(6);
+	opacity: .5;
+	vertical-align: middle;
+}
+
+.content-block { 
+    border:1px solid #eee; 
+    padding:3px;
+    background:#ccc;
+    max-width:250px;
+    float:right; 
+    text-align:center;
+}
+
+.content-block:after { 
+    clear:both;
+}

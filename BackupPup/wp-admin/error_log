@@ -1,0 +1,8 @@
+[14-Aug-2015 20:27:59] WordPress database error Incorrect key file for table '/ramdisk/mysql/tmp/#sql_43bd_3.MYI'; try to repair it for query SHOW FULL COLUMNS FROM `wp_bwsu_postmeta` made by edit_post, update_post_meta, update_metadata
+[14-Aug-2015 20:27:59] WordPress database error Incorrect key file for table '/ramdisk/mysql/tmp/#sql_43bd_3.MYI'; try to repair it for query SHOW FULL COLUMNS FROM `wp_bwsu_posts` made by edit_post, wp_update_post, wp_insert_post
+[14-Aug-2015 20:27:59] WordPress database error Incorrect key file for table '/ramdisk/mysql/tmp/#sql_43bd_3.MYI'; try to repair it for query SHOW FULL COLUMNS FROM `wp_bwsu_posts` made by edit_post
+[14-Aug-2015 20:27:59] WordPress database error Incorrect key file for table '/ramdisk/mysql/tmp/#sql_43bd_3.MYI'; try to repair it for query SHOW FULL COLUMNS FROM `wp_bwsu_posts` made by edit_post
+[14-Aug-2015 20:27:59] WordPress database error Incorrect key file for table '/ramdisk/mysql/tmp/#sql_43bd_3.MYI'; try to repair it for query SHOW FULL COLUMNS FROM `wp_bwsu_posts` made by edit_post, wp_update_post, wp_insert_post
+[14-Aug-2015 20:27:59] WordPress database error Incorrect key file for table '/ramdisk/mysql/tmp/#sql_43bd_3.MYI'; try to repair it for query SHOW FULL COLUMNS FROM `wp_bwsu_postmeta` made by edit_post, wp_set_post_lock, update_post_meta, update_metadata
+[13-Jul-2016 15:53:26 America/New_York] wizard_viewed
+[07-Jan-2017 17:27:58 America/Denver] PHP Fatal error:  Call to undefined function __() in /home1/newdomi4/public_html/wp-admin/menu.php on line 23

@@ -1,0 +1,4 @@
+[27-Aug-2017 18:28:07 America/Denver] PHP Fatal error:  Class 'WP_Widget' not found in /home1/newdomi4/public_html/wp-content/plugins/page-layout-builder/modules/features/features.php on line 11
+[28-Aug-2017 03:30:12 America/Denver] PHP Fatal error:  Class 'WP_Widget' not found in /home1/newdomi4/public_html/wp-content/plugins/page-layout-builder/modules/features/features.php on line 11
+[28-Aug-2017 07:09:14 America/Denver] PHP Fatal error:  Class 'WP_Widget' not found in /home1/newdomi4/public_html/wp-content/plugins/page-layout-builder/modules/features/features.php on line 11
+[29-Aug-2017 09:00:03 America/Denver] PHP Fatal error:  Class 'WP_Widget' not found in /home1/newdomi4/public_html/wp-content/plugins/page-layout-builder/modules/features/features.php on line 11

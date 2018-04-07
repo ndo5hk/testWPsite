@@ -1,0 +1,869 @@
+# Copyright (C) 2016 Spiffy Calendar
+# This file is distributed under the same license as the Spiffy Calendar package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Spiffy Calendar 3.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/spiffy-calendar\n"
+"POT-Creation-Date: 2016-08-25 13:34:19+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/admin/admin-settings-promo.php:11
+msgid "Make a minimum donation"
+msgstr ""
+
+#: includes/admin/admin-settings-promo.php:11
+msgid "to this plugin and you will receive bonus add-ons and technical support"
+msgstr ""
+
+#: includes/admin/admin-settings-promo.php:13
+msgid "Premium themes"
+msgstr ""
+
+#: includes/admin/admin-settings-promo.php:14
+msgid "ICS export"
+msgstr ""
+
+#: includes/admin/admin-settings-promo.php:15
+msgid "CampTix ticket sales integration"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-categories.php:11
+#: includes/admin/admin-settings-tab-events.php:11
+#: includes/admin/admin-settings-tab-options.php:11
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/admin/admin-settings-tab-categories.php:24
+msgid "Edit Category"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-categories.php:28
+#: includes/admin/admin-settings-tab-categories.php:47
+#: includes/admin/admin-settings-tab-categories.php:70
+msgid "Category Name"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-categories.php:32
+msgid "Category Colour (Hex format)"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-categories.php:36
+#: includes/admin/admin-settings-tab-options.php:192
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-categories.php:44
+#: includes/admin/admin-settings-tab-categories.php:56
+msgid "Add Category"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-categories.php:51
+#: includes/admin/admin-settings-tab-categories.php:71
+msgid "Category Colour"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-categories.php:58
+msgid "Manage Categories"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-categories.php:69
+msgid "ID"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-categories.php:72
+#: includes/admin/admin-settings-tab-categories.php:86
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-categories.php:73
+#: includes/admin/admin-settings-tab-categories.php:94
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-categories.php:90
+#: includes/admin/event-list-table.php:50
+msgid "N/A"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-categories.php:94
+msgid "Are you sure you want to delete the category named &quot;"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-categories.php:107
+msgid "There are no categories in the database - something has gone wrong!"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:17
+msgid "Bad event ID"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:23
+msgid "An event with that ID couldn't be found"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:46 spiffy-calendar.php:266
+#: spiffy-calendar.php:363
+msgid "Add Event"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:48
+msgid "Edit Event"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:55
+msgid "Event Title"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:57
+msgid "Maximum 30 characters."
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:60
+msgid "Event Description"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:66
+msgid "Event Category"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:91
+#: includes/admin/admin-settings-tab-options.php:99
+#: includes/admin/event-list-table.php:170
+msgid "Author"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:106
+msgid "Event Link (Optional)"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:110
+#: includes/admin/event-list-table.php:161
+msgid "Start Date"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:123
+#: includes/admin/event-list-table.php:162
+msgid "End Date"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:135
+msgid "Start Time (hh:mm)"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:147
+#: includes/admin/admin-settings-tab-event-edit.php:161
+msgid "Optional, set blank if not required. Ignored for \"Hide Events\"."
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:151
+msgid "End Time (hh:mm)"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:165
+msgid "Recurring Events"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:201
+#: includes/admin/event-list-table.php:166
+msgid "Repeats"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:205
+msgid "times"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:205
+msgid ""
+"Entering 0 means forever. Where the recurrence interval is left at none, the "
+"event will not recur."
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:207
+msgid "Interval"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:209
+msgid "None"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:210
+msgid "Weeks"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:211
+msgid "Months (date)"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:212
+msgid "Months (day)"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:213
+msgid "Years"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:214
+msgid "Custom Days"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:216
+msgid "Number of custom days"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:221
+#: includes/admin/event-list-table.php:167
+msgid "Hide Events"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:264
+#: includes/admin/admin-settings-tab-event-edit.php:274
+#: includes/admin/event-list-table.php:75
+#: includes/admin/event-list-table.php:82
+msgid "False"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:265
+#: includes/admin/admin-settings-tab-event-edit.php:275
+#: includes/admin/event-list-table.php:76
+#: includes/admin/event-list-table.php:83
+msgid "True"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:267
+msgid ""
+"Entering True means other events of this category will be hidden for the "
+"specifed day(s)."
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:272
+#: includes/admin/event-list-table.php:168
+msgid "Show Title"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:277
+msgid ""
+"Entering True means the title of this event will be displayed. This is only "
+"used if Hide Events is True."
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:280
+#: includes/admin/event-list-table.php:169
+msgid "Image"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:301
+msgid "Remove image selection"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:307
+msgid "Save"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-edit.php:309
+msgid "Update"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-event-list.php:15
+msgid "Add New Event"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:88 spiffy-calendar.php:270
+#: spiffy-calendar.php:376 spiffy-calendar.php:393
+msgid "Options"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:93
+msgid "Event Manager Role"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:97
+msgid "Subscriber"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:98
+msgid "Contributor"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:100
+msgid "Editor"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:101
+msgid "Administrator"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:103
+msgid "Choose the lowest user group that can manage events"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:108
+msgid "Display author name on events?"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:112
+#: includes/admin/admin-settings-tab-options.php:123
+#: includes/admin/admin-settings-tab-options.php:133
+#: includes/admin/admin-settings-tab-options.php:145
+#: includes/admin/admin-settings-tab-options.php:164
+#: includes/admin/admin-settings-tab-options.php:175
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:113
+#: includes/admin/admin-settings-tab-options.php:124
+#: includes/admin/admin-settings-tab-options.php:134
+#: includes/admin/admin-settings-tab-options.php:146
+#: includes/admin/admin-settings-tab-options.php:165
+#: includes/admin/admin-settings-tab-options.php:176
+msgid "No"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:119
+msgid "Limit non-admins to editing their own events only?"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:129
+msgid "Enable detailed event display?"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:136
+msgid ""
+"When this option is enabled the time and image will be listed with the event "
+"title. Note that time and image are always displayed in the popup window."
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:141
+msgid "Display a jumpbox for changing month and year quickly?"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:152
+msgid "Display upcoming events for"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:155
+msgid "days into the future"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:160
+msgid "Enable event categories?"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:171
+msgid "Open event links in new window?"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:182
+msgid "Custom CSS styles"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:186
+msgid "Tick this box if you wish to reset the Calendar style to default"
+msgstr ""
+
+#: includes/admin/admin-settings-tab-options.php:187
+msgid ""
+"Default styles are always loaded. If you would like to add additional custom "
+"CSS you may do so here."
+msgstr ""
+
+#: includes/admin/admin-settings.php:12
+msgid "Spiffy Calendar Settings"
+msgstr ""
+
+#: includes/admin/event-list-table.php:28
+msgid "event"
+msgstr ""
+
+#: includes/admin/event-list-table.php:29
+msgid "events"
+msgstr ""
+
+#: includes/admin/event-list-table.php:59
+msgid "Weekly"
+msgstr ""
+
+#: includes/admin/event-list-table.php:60
+msgid "Monthly (date)"
+msgstr ""
+
+#: includes/admin/event-list-table.php:61
+msgid "Monthly (day)"
+msgstr ""
+
+#: includes/admin/event-list-table.php:62
+msgid "Yearly"
+msgstr ""
+
+#: includes/admin/event-list-table.php:63
+msgid "Every"
+msgstr ""
+
+#: includes/admin/event-list-table.php:63
+msgid "days"
+msgstr ""
+
+#: includes/admin/event-list-table.php:69
+msgid "Forever"
+msgstr ""
+
+#: includes/admin/event-list-table.php:70
+msgid "Times"
+msgstr ""
+
+#: includes/admin/event-list-table.php:126
+msgid "Are you sure you want to delete the event titled"
+msgstr ""
+
+#: includes/admin/event-list-table.php:160
+msgid "Title"
+msgstr ""
+
+#: includes/admin/event-list-table.php:163
+msgid "Start Time"
+msgstr ""
+
+#: includes/admin/event-list-table.php:164
+msgid "End Time"
+msgstr ""
+
+#: includes/admin/event-list-table.php:165
+msgid "Recurs"
+msgstr ""
+
+#: includes/admin/event-list-table.php:171
+msgid "Category"
+msgstr ""
+
+#: includes/admin/event-list-table.php:229
+msgid "Event deleted successfully"
+msgstr ""
+
+#: includes/admin/event-list-table.php:233 spiffy-calendar.php:559
+#: spiffy-calendar.php:566 spiffy-calendar.php:573 spiffy-calendar.php:587
+#: spiffy-calendar.php:601 spiffy-calendar.php:612 spiffy-calendar.php:622
+#: spiffy-calendar.php:636 spiffy-calendar.php:648 spiffy-calendar.php:672
+#: spiffy-calendar.php:678
+msgid "Error"
+msgstr ""
+
+#: includes/admin/event-list-table.php:233
+msgid ""
+"Despite issuing a request to delete, the event still remains in the "
+"database. Please investigate."
+msgstr ""
+
+#: includes/shortcode-buttons.php:57
+msgid "Spiffy Calendar Shortcode Embed"
+msgstr ""
+
+#: includes/shortcode-buttons.php:63
+msgid "Select shortcode:"
+msgstr ""
+
+#: includes/shortcode-buttons.php:66
+msgid "Full Calendar"
+msgstr ""
+
+#: includes/shortcode-buttons.php:67
+msgid "Mini Calendar"
+msgstr ""
+
+#: includes/shortcode-buttons.php:68 includes/spiffy-today-widget.php:80
+msgid "Today's Events"
+msgstr ""
+
+#: includes/shortcode-buttons.php:69 includes/spiffy-upcoming-widget.php:72
+msgid "Upcoming Events"
+msgstr ""
+
+#: includes/shortcode-buttons.php:75
+msgid "Select categories (optional):"
+msgstr ""
+
+#: includes/shortcode-buttons.php:76
+msgid "CTRL+click to select multiple categories."
+msgstr ""
+
+#: includes/shortcode-buttons.php:90
+msgid "List Options"
+msgstr ""
+
+#: includes/shortcode-buttons.php:92
+msgid "List limit (optional):"
+msgstr ""
+
+#: includes/shortcode-buttons.php:93
+msgid "Leave blank to list all events found."
+msgstr ""
+
+#: includes/shortcode-buttons.php:97
+msgid "Style"
+msgstr ""
+
+#: includes/shortcode-buttons.php:107
+msgid "Insert"
+msgstr ""
+
+#: includes/spiffy-featured-widget.php:23
+msgid "Spiffy Featured Event"
+msgstr ""
+
+#: includes/spiffy-featured-widget.php:24
+msgid "Expanded view of a specific event"
+msgstr ""
+
+#: includes/spiffy-featured-widget.php:81
+msgid "Featured Event"
+msgstr ""
+
+#: includes/spiffy-featured-widget.php:87
+#: includes/spiffy-minical-widget.php:79 includes/spiffy-today-widget.php:87
+#: includes/spiffy-upcoming-widget.php:79
+msgid "Title:"
+msgstr ""
+
+#: includes/spiffy-featured-widget.php:93
+msgid "Select the event"
+msgstr ""
+
+#: includes/spiffy-minical-widget.php:23
+msgid "Spiffy Mini Calendar"
+msgstr ""
+
+#: includes/spiffy-minical-widget.php:24
+msgid "Mini calendar grid"
+msgstr ""
+
+#: includes/spiffy-minical-widget.php:73
+msgid "Calendar"
+msgstr ""
+
+#: includes/spiffy-minical-widget.php:85 includes/spiffy-today-widget.php:93
+#: includes/spiffy-upcoming-widget.php:85
+msgid "Comma separated category id list"
+msgstr ""
+
+#: includes/spiffy-today-widget.php:23
+msgid "Spiffy Today's Events"
+msgstr ""
+
+#: includes/spiffy-today-widget.php:24
+msgid "List today's events"
+msgstr ""
+
+#: includes/spiffy-today-widget.php:99
+msgid "Number of events to display, blank for all"
+msgstr ""
+
+#: includes/spiffy-today-widget.php:105 includes/spiffy-upcoming-widget.php:97
+msgid "Choose the display style"
+msgstr ""
+
+#: includes/spiffy-upcoming-widget.php:22
+msgid "Spiffy Upcoming Events"
+msgstr ""
+
+#: includes/spiffy-upcoming-widget.php:23
+msgid "List upcoming events"
+msgstr ""
+
+#: includes/spiffy-upcoming-widget.php:91
+msgid ""
+"Number of events to display, blank for all within the configured upcoming "
+"window"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (Spiffy Calendar 3.1.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: spiffy-calendar.php:259 spiffy-calendar.php:264 spiffy-calendar.php:266
+#: spiffy-calendar.php:268 spiffy-calendar.php:270 spiffy-calendar.php:352
+msgid "Spiffy Calendar"
+msgstr ""
+
+#: spiffy-calendar.php:264 spiffy-calendar.php:357
+msgid "Manage Events"
+msgstr ""
+
+#: spiffy-calendar.php:268 spiffy-calendar.php:370 spiffy-calendar.php:392
+msgid "Categories"
+msgstr ""
+
+#: spiffy-calendar.php:282
+msgid "Number of events per page"
+msgstr ""
+
+#: spiffy-calendar.php:304
+msgid "Sorry, but you have no permission to change settings."
+msgstr ""
+
+#: spiffy-calendar.php:344
+msgid "Spiffy Event"
+msgstr ""
+
+#: spiffy-calendar.php:391 spiffy-calendar.php:401
+msgid "Events"
+msgstr ""
+
+#: spiffy-calendar.php:450
+msgid "Category deleted successfully"
+msgstr ""
+
+#: spiffy-calendar.php:465
+msgid "Category added successfully"
+msgstr ""
+
+#: spiffy-calendar.php:470
+msgid "Missing category name or color, not saved."
+msgstr ""
+
+#: spiffy-calendar.php:481
+msgid "Category edited successfully"
+msgstr ""
+
+#: spiffy-calendar.php:483
+msgid "Missing category name or color, not updated."
+msgstr ""
+
+#: spiffy-calendar.php:527
+msgid "Failure"
+msgstr ""
+
+#: spiffy-calendar.php:527
+msgid "You can't update an event if you haven't submitted an event id"
+msgstr ""
+
+#: spiffy-calendar.php:559
+msgid ""
+"Your event end date must be either after or the same as your event begin date"
+msgstr ""
+
+#: spiffy-calendar.php:566
+msgid ""
+"Your date formatting is correct but one or more of your dates is invalid. "
+"Check for number of days in month and leap year related errors."
+msgstr ""
+
+#: spiffy-calendar.php:573
+msgid ""
+"Both start and end dates must be entered and be in the format YYYY-MM-DD"
+msgstr ""
+
+#: spiffy-calendar.php:587
+msgid ""
+"The time field must either be blank or be entered in the format hh:mm am/pm"
+msgstr ""
+
+#: spiffy-calendar.php:601
+msgid ""
+"The end time field must either be blank or be entered in the format hh:mm am/"
+"pm"
+msgstr ""
+
+#: spiffy-calendar.php:612
+msgid ""
+"The URL entered must either be prefixed with http:// or be completely blank"
+msgstr ""
+
+#: spiffy-calendar.php:622
+msgid "The event title must not be blank"
+msgstr ""
+
+#: spiffy-calendar.php:636
+msgid ""
+"The repetition value must be 0 unless a type of recurrance is selected. "
+"Custom days recurrence must have a repetition value from 1 to 365, others "
+"may be 0 for infinite."
+msgstr ""
+
+#: spiffy-calendar.php:648
+msgid ""
+"The number of custom days in the interval must be greater than 1 and less "
+"than 200 for a custom day recur event, or 1 for other recur types."
+msgstr ""
+
+#: spiffy-calendar.php:672
+msgid ""
+"The event could not be added to the database. This may indicate a problem "
+"with your database or the way in which it is configured."
+msgstr ""
+
+#: spiffy-calendar.php:678
+msgid ""
+"The event could not be updated. This may indicate a problem with your "
+"database or the way in which it is configured."
+msgstr ""
+
+#: spiffy-calendar.php:685
+msgid "Event added. It will now show in your calendar."
+msgstr ""
+
+#: spiffy-calendar.php:691
+msgid "Event updated successfully."
+msgstr ""
+
+#: spiffy-calendar.php:785
+msgid "Settings saved"
+msgstr ""
+
+#: spiffy-calendar.php:1125 spiffy-calendar.php:1194
+msgid "Posted by"
+msgstr ""
+
+#: spiffy-calendar.php:1140
+msgid "More details"
+msgstr ""
+
+#: spiffy-calendar.php:1182
+msgid "Time"
+msgstr ""
+
+#: spiffy-calendar.php:1539 spiffy-calendar.php:1546
+msgid "Sunday"
+msgstr ""
+
+#: spiffy-calendar.php:1540 spiffy-calendar.php:1544
+msgid "Monday"
+msgstr ""
+
+#: spiffy-calendar.php:1540 spiffy-calendar.php:1545
+msgid "Tuesday"
+msgstr ""
+
+#: spiffy-calendar.php:1540 spiffy-calendar.php:1545
+msgid "Wednesday"
+msgstr ""
+
+#: spiffy-calendar.php:1541 spiffy-calendar.php:1545
+msgid "Thursday"
+msgstr ""
+
+#: spiffy-calendar.php:1541 spiffy-calendar.php:1546
+msgid "Friday"
+msgstr ""
+
+#: spiffy-calendar.php:1541 spiffy-calendar.php:1546
+msgid "Saturday"
+msgstr ""
+
+#: spiffy-calendar.php:1550 spiffy-calendar.php:1631 spiffy-calendar.php:1794
+msgid "January"
+msgstr ""
+
+#: spiffy-calendar.php:1550 spiffy-calendar.php:1632 spiffy-calendar.php:1794
+msgid "February"
+msgstr ""
+
+#: spiffy-calendar.php:1550 spiffy-calendar.php:1633 spiffy-calendar.php:1794
+msgid "March"
+msgstr ""
+
+#: spiffy-calendar.php:1551 spiffy-calendar.php:1634 spiffy-calendar.php:1795
+msgid "April"
+msgstr ""
+
+#: spiffy-calendar.php:1551 spiffy-calendar.php:1635 spiffy-calendar.php:1795
+msgid "May"
+msgstr ""
+
+#: spiffy-calendar.php:1551 spiffy-calendar.php:1636 spiffy-calendar.php:1795
+msgid "June"
+msgstr ""
+
+#: spiffy-calendar.php:1551 spiffy-calendar.php:1637 spiffy-calendar.php:1796
+msgid "July"
+msgstr ""
+
+#: spiffy-calendar.php:1552 spiffy-calendar.php:1638 spiffy-calendar.php:1796
+msgid "August"
+msgstr ""
+
+#: spiffy-calendar.php:1552 spiffy-calendar.php:1639 spiffy-calendar.php:1796
+msgid "September"
+msgstr ""
+
+#: spiffy-calendar.php:1552 spiffy-calendar.php:1640 spiffy-calendar.php:1797
+msgid "October"
+msgstr ""
+
+#: spiffy-calendar.php:1553 spiffy-calendar.php:1641 spiffy-calendar.php:1797
+msgid "November"
+msgstr ""
+
+#: spiffy-calendar.php:1553 spiffy-calendar.php:1642 spiffy-calendar.php:1797
+msgid "December"
+msgstr ""
+
+#: spiffy-calendar.php:1665
+msgid "Go"
+msgstr ""
+
+#: spiffy-calendar.php:1732
+msgid "Category Key"
+msgstr ""
+
+#: spiffy-calendar.php:1763
+msgid "all day"
+msgstr ""
+
+#: spiffy-calendar.php:1765
+msgid "at "
+msgstr ""
+
+#: spiffy-calendar.php:1767
+msgid "from "
+msgstr ""
+
+#: spiffy-calendar.php:1768
+msgid " to "
+msgstr ""
+
+#: spiffy-calendar.php:1786 spiffy-calendar.php:1790
+msgid "Su"
+msgstr ""
+
+#: spiffy-calendar.php:1786 spiffy-calendar.php:1789
+msgid "Mo"
+msgstr ""
+
+#: spiffy-calendar.php:1786 spiffy-calendar.php:1789
+msgid "Tu"
+msgstr ""
+
+#: spiffy-calendar.php:1787 spiffy-calendar.php:1789
+msgid "We"
+msgstr ""
+
+#: spiffy-calendar.php:1787 spiffy-calendar.php:1790
+msgid "Th"
+msgstr ""
+
+#: spiffy-calendar.php:1787 spiffy-calendar.php:1790
+msgid "Fr"
+msgstr ""
+
+#: spiffy-calendar.php:1787 spiffy-calendar.php:1790
+msgid "Sa"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.spiffycalendar.sunnythemes.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A full featured, simple to use Spiffy Calendar plugin for WordPress that "
+"allows you to manage and display your events and appointments."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sunny Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://sunnythemes.com"
+msgstr ""

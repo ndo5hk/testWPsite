@@ -1,0 +1,35 @@
+/*--------------------------------------------------------------
+# Base Layout
+--------------------------------------------------------------*/
+
+// Structure
+.wrap {
+	@include container;
+	overflow: hidden;
+}
+
+.site-content {
+	margin: rem(60) auto;
+}
+
+.primary {
+	width: 100%;
+}
+
+// Footer Sidebar
+.secondary {
+	border-bottom: 1px solid $color-lighter-gray;
+	clear: both;
+	margin: rem(40) 0 rem(80);
+	padding: 0 0 rem(80);
+	overflow: hidden;
+	width: 100%;
+
+	.sidebar-wrap {
+		@include container;
+	}
+}
+
+.homepage .secondary {
+	border-bottom: 0;
+}

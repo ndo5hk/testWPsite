@@ -1,0 +1,12 @@
+[28-Jan-2017 09:12:27 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/newdomi4/public_html/wp-content/plugins/page-layout-builder/modules/richtext/richtext.php on line 13
+[29-Jan-2017 00:58:52 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/newdomi4/public_html/wp-content/plugins/page-layout-builder/modules/richtext/dynamic-tinymce.php on line 32
+[29-Jan-2017 07:06:47 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/newdomi4/public_html/wp-content/plugins/page-layout-builder/modules/richtext/richtext.php on line 13
+[29-Jan-2017 11:32:12 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/newdomi4/public_html/wp-content/plugins/page-layout-builder/modules/richtext/dynamic-tinymce.php on line 32
+[30-Jan-2017 06:36:27 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/newdomi4/public_html/wp-content/plugins/page-layout-builder/modules/richtext/dynamic-tinymce.php on line 32
+[22-Aug-2017 23:00:55 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/newdomi4/public_html/wp-content/plugins/page-layout-builder/modules/richtext/richtext.php on line 13
+[23-Aug-2017 06:18:09 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/newdomi4/public_html/wp-content/plugins/page-layout-builder/modules/richtext/richtext.php on line 13
+[23-Aug-2017 09:16:18 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/newdomi4/public_html/wp-content/plugins/page-layout-builder/modules/richtext/richtext.php on line 13
+[23-Aug-2017 14:09:12 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/newdomi4/public_html/wp-content/plugins/page-layout-builder/modules/richtext/dynamic-tinymce.php on line 32
+[24-Aug-2017 01:54:20 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/newdomi4/public_html/wp-content/plugins/page-layout-builder/modules/richtext/dynamic-tinymce.php on line 32
+[24-Aug-2017 20:37:57 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/newdomi4/public_html/wp-content/plugins/page-layout-builder/modules/richtext/richtext.php on line 13
+[25-Aug-2017 13:53:24 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/newdomi4/public_html/wp-content/plugins/page-layout-builder/modules/richtext/dynamic-tinymce.php on line 32

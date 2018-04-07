@@ -1,0 +1,69 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.site-header {
+	background-size: cover;
+	clear: left;
+	height: rem(500);
+	margin-top: 0;
+	max-width: 100%;
+	padding-bottom: 0;
+	position: relative;
+
+	@include media(768px) {
+		height: rem(650);
+	}
+}
+
+.site-header .site-branding{
+	margin: 0 auto;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+}
+
+.site-title {
+	font-family: $font-serif;
+	font-size: rem(32);
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.2;
+	margin: 0 0 rem(10);
+	padding: 0;
+	position: relative;
+
+	@include media(768px) {
+		font-size: rem(52);
+	}
+}
+
+.site-title a,
+.site-title a:hover {
+	color: $color-white;
+}
+
+.site-title a:hover{
+	opacity: 0.7;
+}
+
+.site-description {
+	color: $color-white;
+	font-size: rem(16);
+	font-family: $font-serif;
+	font-weight: 400;
+	margin: rem(-4) auto 0;
+	max-width: 70%;
+	padding: 0;
+}
+
+.home .header-overlay {
+	background-color: rgba(0, 0, 0, 0.1);
+	height: 100%;
+}
+
+.page-template-default .header-overlay,
+.single .header-overlay {
+	background-color: rgba(0, 0, 0, 0.3);
+	height: 100%;
+}

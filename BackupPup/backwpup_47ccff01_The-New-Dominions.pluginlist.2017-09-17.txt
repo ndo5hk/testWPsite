@@ -1,0 +1,65 @@
+------------------------------------------------------------
+  Plugin list generated with BackWPup version: 3.4.1
+  http://backwpup.com
+  Blog Name: The New Dominions
+  Blog URL: http://newdominions.com
+  Generated on: 2017-09-17 16:22.04
+------------------------------------------------------------
+
+
+All plugin information:
+------------------------------
+Akismet Anti-Spam (v.3.3.4) from Automattic
+	https://akismet.com/
+BackWPup (v.3.4.1) from Inpsyde GmbH
+	http://backwpup.com
+Columns (v.0.7.3) from Konstantin Kovshenin
+	https://wordpress.org/extend/plugins/columns/
+Event Espresso Lite - Event Registration and Management (v.3.1.37.12.L) from Event Espresso
+	http://eventespresso.com/pricing/?ee_ver=ee3&utm_source=ee3_lite_plugin_admin&utm_medium=link&utm_campaign=wordpress_plugins_page&utm_content=support_link
+Hello Dolly (v.1.6) from Matt Mullenweg
+	http://wordpress.org/plugins/hello-dolly/
+Jetpack by WordPress.com (v.5.3) from Automattic
+	https://jetpack.com
+Kadence Toolkit (v.4.5) from Kadence Themes
+	
+MarketPress (v.3.2.5) from WPMU DEV
+	https://premium.wpmudev.org/project/e-commerce/
+MiniMax - Page Layout Builder (v.2.0.3) from Shaon
+	http://wpeden.com/minimax-wordpress-page-layout-builder-plugin/
+MOJO Marketplace (v.1.1.0) from Mike Hansen
+	
+Spiffy Calendar (v.3.3.0) from Sunny Themes
+	http://www.spiffycalendar.sunnythemes.com
+WP Gallery Custom Links (v.1.12) from johnogg
+	
+WP Google Analytics Events (v.2.4.5) from Yuval Oren
+	http://wpflow.com
+WP Maintenance Mode (v.2.0.9) from Designmodo
+	http://designmodo.com/
+WP Staging (v.2.1.1) from WP-Staging
+	https://wordpress.org/plugins/wp-staging
+Yoast SEO (v.5.4) from Team Yoast
+	https://yoast.com/wordpress/plugins/seo/#utm_source=wpadmin&utm_medium=plugin&utm_campaign=wpseoplugin
+
+Active plugins:
+------------------------------
+Akismet Anti-Spam
+BackWPup
+Columns
+Event Espresso Lite - Event Registration and Management
+Hello Dolly
+Kadence Toolkit
+MarketPress
+MiniMax - Page Layout Builder
+MOJO Marketplace
+Spiffy Calendar
+WP Gallery Custom Links
+WP Google Analytics Events
+WP Staging
+Yoast SEO
+
+Inactive plugins:
+------------------------------
+Jetpack by WordPress.com
+WP Maintenance Mode

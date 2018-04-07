@@ -1,0 +1,233 @@
+/*--------------------------------------------------------------
+# Comments
+--------------------------------------------------------------*/
+
+.comments-area {
+	border-top: rem(1) solid $color-lighter-gray;
+	margin: rem(40) 0;
+	padding: rem(40) 0;
+	width: 100%;
+}
+
+.comment-reply-title,
+.comments-title {
+	font-size: rem(16);
+	line-height: 1.5;
+	letter-spacing: -0.01em;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.comment-list {
+	list-style: none;
+	margin: 0 0 rem(48);
+	padding: 0;
+}
+
+.comment-list article, 
+.comment-list .pingback, 
+.comment-list .trackback {
+	border-top: rem(1) solid $color-lighter-gray;
+	margin-bottom: rem(24);
+	padding-top: rem(24);
+}
+
+.comment-list > li:first-child > article, 
+.comment-list > .pingback:first-child, 
+.comment-list > .trackback:first-child {
+	border-top: 0;
+}
+
+.comment-list .reply {
+	margin-top: rem(24);
+}
+
+a.comment-reply-link {
+	background: #f2f2f2;
+	color: #333;
+	cursor: pointer;
+	display: inline-block;
+	font-size: rem(11);
+	line-height: 2.429em;
+	margin: 0 0 2em;
+	opacity: 0.8;
+	padding: 0 0.8em;
+	text-align: center;
+}
+
+a.comment-reply-link:hover {
+	opacity: 1;
+}
+
+.comment-list .reply a:active {
+	position: relative;
+	bottom: rem(-1);
+}
+.comment-list .trackback a, 
+.comment-list .pingback a {
+	color: #737678;
+}
+.comment-list .trackback a:hover, 
+.comment-list .trackback a:active, 
+.comment-list .trackback a:focus, 
+.comment-list .pingback a:hover, 
+.comment-list .pingback a:active, 
+.comment-list .pingback a:focus {
+	color: $color-lighter-gray;
+}
+.comment-list .children {
+	list-style: none;
+	margin-left: rem(24);
+}
+
+.comment-author {
+	font-family: $font-serif;
+	padding: 0 0 0 rem(36);
+	position: relative;
+}
+
+.bypostauthor{}
+
+.comment-author a {
+	color: $color-black;
+}
+.comment-author a:hover, 
+.comment-author a:active, 
+.comment-author a:focus {
+	color: $color-lighter-gray;
+}
+.comment-author .avatar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: rem(24);
+	width: rem(24);
+	border-radius: 50%;
+}
+
+.says {
+	display: none;
+}
+
+.comment-metadata a {
+	font-size: rem(13);
+	font-weight: 400;
+	line-height: 1.23077;
+	color: #aaa;
+	text-transform: uppercase;
+}
+.comment-metadata a:hover, 
+.comment-metadata a:active, 
+.comment-metadata a:focus {
+	color: #903000;
+}
+
+.comment-edit-link {
+	margin-left: rem(10);
+}
+.comment-edit-link:before {
+	content: '\f411';
+	font-family: genericons;
+	position: relative;
+	top: 0;
+	margin: 0 rem(4) 0 0;
+}
+
+.comment-content {
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	word-wrap: break-word;
+	margin-top: rem(24);
+}
+.comment-content ul,
+.comment-content ol {
+	margin: 0 0 rem(24) rem(22);
+}
+.comment-content li > ul,
+.comment-content li > ol {
+	margin-bottom: 0;
+}
+.comment-content > :last-child {
+	margin-bottom: 0;
+}
+
+.comment .comment-respond {
+	margin-top: rem(48);
+}
+.comment-respond h3 {
+	margin: 0 0 rem(24);
+}
+
+.comment-notes, 
+.comment-awaiting-moderation, 
+.logged-in-as, 
+.subscribe-label {
+	font-size: rem(14);
+	font-weight: 400;
+	line-height: 1.71429;
+	color: #737678;
+}
+
+.no-comments {
+	font-size: rem(16);
+	font-weight: 700;
+	line-height: 1.5;
+	color: #737678;
+	margin-top: rem(24);
+	text-transform: uppercase;
+}
+
+.comment-form label {
+	display: block;
+}
+
+.form-allowed-tags, 
+.form-allowed-tags code {
+	font-size: rem(12);
+	font-weight: 400;
+	line-height: 1.33333;
+	color: #737678;
+}
+
+.required {
+	color: #c0392b;
+}
+
+.comment-reply-title a {
+	color: $color-black;
+	float: right;
+	height: rem(24);
+	overflow: hidden;
+	width: rem(24);
+}
+.comment-reply-title a:hover, 
+.comment-reply-title a:active, 
+.comment-reply-title a:focus {
+	color: $color-lighter-gray;
+}
+#cancel-comment-reply-link{
+	width: auto;
+}
+.comment-navigation {
+	margin-bottom: rem(24)48;
+}
+
+.comment-navigation a {
+	font-size: rem(14);
+	font-weight: 400;
+	line-height: 1.14286;
+	text-transform: uppercase;
+}
+.comment-navigation .nav-next, 
+.comment-navigation .nav-previous {
+	display: inline-block;
+}
+.comment-navigation .nav-previous a {
+	margin-right: rem(10);
+}
+
+#comment-nav-above {
+	margin: rem(36) 0 rem(24);
+}

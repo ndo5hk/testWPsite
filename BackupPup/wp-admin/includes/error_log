@@ -1,0 +1,4 @@
+[01-Mar-2016 19:16:59 America/Denver] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home1/newdomi4/public_html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17
+[22-Aug-2016 22:29:23 America/Denver] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home1/newdomi4/public_html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17
+[31-Dec-2016 16:23:14 America/Denver] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home1/newdomi4/public_html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17
+[12-Jan-2017 15:22:20 America/Denver] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home1/newdomi4/public_html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17

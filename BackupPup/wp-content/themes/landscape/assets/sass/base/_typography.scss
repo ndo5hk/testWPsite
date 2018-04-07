@@ -1,0 +1,158 @@
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+
+body,
+button,
+input,
+select,
+textarea {
+	color: $color-text-main;
+	font-family: $font-sans;
+	font-size: rem(17);
+	line-height: $line-height-body;
+	-webkit-font-smoothing: antialiased;
+}
+
+// Headings
+h1,h2,h3,h4,h5,h6 {
+	clear: both;
+	font-family: $font-serif;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-size: rem(32);
+}
+
+h2{
+	font-size: rem(28);
+	margin-bottom: rem(20);
+}
+
+h3{
+	font-size: rem(22);
+	margin-bottom: rem(20);
+}
+
+h4{
+	font-size: rem(20);
+	margin-bottom: rem(20);
+}
+
+h5{
+	font-size: rem(18);
+	margin-bottom: rem(20);
+}
+
+h6{
+	font-size: rem(16);
+	font-weight: bold;
+}
+
+hr {
+	background-color: $color-light-gray;
+	border: 0;
+	height: rem(1);
+	margin-bottom: rem(20);
+}
+
+// Copy
+
+p {
+	margin: 0 0 rem(24) 0;
+	line-height: 1.5;
+}
+
+b,
+strong {
+	font-weight: 700;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote,
+q {
+	margin: 0 rem(24);
+	quotes: "" "";
+
+	&:before,
+	&:after {
+		content: "";
+	}
+}
+
+address {
+	margin: 0 0 rem(24) 0;
+}
+
+pre {
+	font-family: $font-pre;
+	font-size: rem(15);
+	line-height: $line-height-pre;
+	margin: 0 0 rem(24);
+	max-width: 100%;
+	overflow: auto;
+	padding: rem(24);
+}
+
+code,
+kbd,
+tt,
+var {
+	font-family: $font-code;
+	font-size: rem(15);
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted $color-border-abbr;
+	cursor: help;
+}
+
+mark,
+ins {
+	text-decoration: none;
+}
+
+sup,
+sub {
+	font-size: 75%;
+	height: 0;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	bottom: 1ex;
+}
+
+sub {
+	top: .5ex;
+}
+
+small {
+	font-size: 75%;
+}
+
+big {
+	font-size: 125%;
+}
+
+// Word Wrapping
+.entry-title,
+.entry-content,
+.comments-title,
+.comment-content,
+.widget-title,
+.widget {
+	@include word-break();
+}

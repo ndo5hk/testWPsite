@@ -1,0 +1,256 @@
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+
+// Links
+a {
+	color: $color-link;
+	text-decoration: none;
+	transition: all .4s ease-in-out;
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color-link-hover;
+		transition: all .4s ease-in-out;
+	}
+}
+
+// Main Menu
+.main-navigation {
+	background: $color-background-menu;
+	clear: left;
+	display: block;
+	float: left;
+	font-family: $font-serif;
+	font-size: rem(14);
+	text-transform: uppercase;
+	width: 100%;
+	z-index: 99999;
+}
+
+.main-navigation a {
+	color: $color-white;
+
+	&:hover {
+		color: $color-link-hover;
+	}
+}
+
+.main-navigation ul {
+	float: right;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	position: relative;
+	right: 50%;
+}
+
+.main-navigation ul li {
+	display: inline-block;
+	position: relative;
+	left: 50%;
+}
+
+.main-navigation ul li:after {
+	color: $color-dark-gray;
+	content: "|";
+	display: inline;
+	font-size: rem(12);
+	font-style: italic;
+	margin: 0 0 0 rem(10);
+	padding: 0 rem(10) 0 0;
+	position: relative;
+	top: rem(-1);
+	left: rem(-1);
+}
+
+.main-navigation ul li:last-child:after {
+	content: normal;
+	margin: 0;
+	padding: 0;
+}
+
+.main-navigation ul ul li {
+	float: left;
+	font-style:normal;
+	left: auto;
+}
+
+.main-navigation ul a {
+	display: inline-block;
+	font-style: normal;
+	padding: rem(10);
+	text-decoration: none;
+
+	&:hover {
+		color: $color-link-menu-hover;
+	}
+}
+
+
+.main-navigation ul ul {
+	background: $color-background-menu;
+	float: left;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: auto;
+	text-align: left;
+	top: auto;
+	transition: all .4s ease-in-out;
+	visibility: hidden;
+	z-index: 99999;
+}
+
+.main-navigation ul li:hover > ul {
+	display: block;
+	opacity: 1;
+	transition: all .4s ease-in-out;
+	visibility: visible;
+}
+
+.main-navigation ul ul ul {
+	left: 100%;
+	top: 0;
+}
+
+.main-navigation ul ul a {
+	padding: rem(10) rem(15);
+	width: rem(220);
+}
+
+.main-navigation ul ul li:after {
+	content: normal;
+	margin: 0;
+	padding: 0;
+}
+
+.main-navigation ul ul a:hover {
+}
+
+.main-navigation ul li:hover > ul {
+	display: block;
+}
+
+.main-navigation li.current_page_item a,
+.main-navigation li.current-menu-item a {
+	color: $color-link-menu-hover;
+}
+
+.main-navigation li.current_page_item .sub-menu a {
+	color: $color-white;
+
+	&:hover {
+		color: $color-link-menu-hover;
+	}
+}
+
+/* Small menu */
+.main-small-navigation {
+	background: $color-background-menu;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 99999;
+}
+
+.main-small-navigation h1{
+	margin: 0;
+}
+
+.menu-toggle {
+	color: $color-white;
+	cursor: pointer;
+	font-family: $font-serif;
+	font-size: rem(14);
+	padding: rem(12) 0 0;
+	height: rem(42);
+	text-transform: uppercase;
+	text-align: center;
+
+	&:before {
+		content: '\f419';
+		font-family: $font-icon;
+		font-size: rem(13);
+		padding: 0 rem(5) 0 0;
+		position: relative;
+		top: 1px;
+	}
+}
+
+.menu-toggle.toggled-on:before {
+	content: '\f406';
+	font-family: $font-icon;
+	padding: 0 rem(5) 0 0;
+	position: relative;
+	top: 1px;
+}
+
+.main-small-navigation .menu {
+	display: none;
+}
+
+.main-small-navigation .menu,
+.main-small-navigation .menu a {
+	color: $color-white;
+	font-family: 'Libre Baskerville', serif;
+	padding: rem(10) 0;
+}
+
+.main-small-navigation .menu a:hover {
+	opacity: .7;
+}
+
+.main-small-navigation ul{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	z-index:9999;
+}
+
+.main-small-navigation ul li{
+	list-style-type: none;
+}
+
+
+// Post navigation
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+	.site-main & {
+		margin: rem(24) 0;
+		overflow: hidden;
+	}
+
+	& .nav-previous {
+		@include size(50% auto);
+		float: left;
+		
+		&:before {
+			content: "\f341";
+			font-family: dashicons;
+			font-size: rem(13);
+			margin-right: rem(6);
+			opacity: .5;
+			vertical-align: middle;
+		}
+	}
+
+	& .nav-next {
+		@include size(50% auto);
+		float: right;
+		text-align: right;
+
+		&:after {
+			content: "\f345";
+			font-family: dashicons;
+			font-size: rem(13);
+			margin-left: rem(6);
+			opacity: .5;
+			vertical-align: middle;
+		}
+	}
+}
